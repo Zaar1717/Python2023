@@ -4,4 +4,5 @@ number_2 = x % 100 // 10
 number_3 = x % 1000 // 100
 number_4 = x // 1000 % 10
 number_5 = x // 10000
-print(number_1, number_2, number_3, number_4, number_5)
+return_number = (number_1 * 10000) + (number_2 * 1000) + (number_3 * 100) + (number_4 * 10) + number_5
+print(return_number)
