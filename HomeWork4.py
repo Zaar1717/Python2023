@@ -9,5 +9,7 @@ elif z == '*':
     print(x*y)
 elif z == '/' and y != 0:
     print(x/y)
-else:
+elif y == 0:
     print('you can not divide by 0')
+else:
+    print('incorrect')
