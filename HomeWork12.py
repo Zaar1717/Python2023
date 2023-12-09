@@ -6,7 +6,8 @@ for symbol in string.punctuation:
     for i in range(len(text)):
         text = text.replace(' ', '')
 text = '#' + text
-print(text[0:139])
+print(text[0:140])
+
 
 
 
